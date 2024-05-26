@@ -1,0 +1,33 @@
+body {
+margin:0;
+padding: 0;
+      background-color: #f0f0f0;
+      font-family: Monospace;
+    }
+    h2{
+      text-align: center;
+    }
+.con_puzzle {
+        display: flex;
+      justify-content: center;
+      align-items: center;
+margin: 5rem 0 0 0;
+}
+    .puzzle-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 5px;
+    }
+
+    .puzzle-piece {
+      width: 20vw;
+      height: 100px;
+      background-color: #3399ff;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      cursor: pointer;
+      border-radius:5px;
+    }
